@@ -85,3 +85,37 @@ body {
     padding-bottom: 5px;
 }
 
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack columns for better mobile display */
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .profile {
+        flex: none; /* Remove flex scaling */
+        width: 100%; /* Full width for mobile */
+    }
+
+    .info {
+        flex: none; /* Remove flex scaling */
+        width: 100%;
+    }
+
+    .circle-list li {
+        padding-left: 10px; /* Reduce left padding for small screens */
+    }
+
+    .circle-list li::before {
+        width: 8px;
+        height: 8px; /* Smaller circles for compact spacing */
+    }
+}
