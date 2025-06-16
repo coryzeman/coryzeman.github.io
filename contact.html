@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <header>
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li>
+          <a href="about.html">Home</a>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Portfolio ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="python.html">Python</a></li>
+            <li><a href="java.html">Java</a></li>
+            <li><a href="websites.html">Websites</a></li>
+            <li><a href="csharp.html">C#</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <h1>Contact Me</h1>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+  </body>
+</html>
