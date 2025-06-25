@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding-top: 40px;
 }
 
 .container {
@@ -84,6 +84,7 @@ body {
     border-bottom: 2px solid #555;
     padding-bottom: 5px;
 }
+
 
 
 
